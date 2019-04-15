@@ -1,6 +1,11 @@
 import java.util.Random;
 
-/*
+/* 
+ *	If you are getting a StackOverflow exception while running the following program, perform the following:
+ *		1. Go to Run > Run Configurations
+ *      2. Click on the tab that reads "(x)= Arguments"
+ *      3. In the box labeled "VM arguments:", add this: -Xss64m 
+ * 
  *	Run the following program. Please be patient. It is supposed to take a long time to complete.
  *  Read the code and follow along with the output. 
  *  
