@@ -9,7 +9,7 @@ import java.util.Random;
  *  run time of the program can be reduced by taking advantage of threads. 
  *  
  *  In the main method of the FasterFunctions class, call each of the three static methods in a new Thread and
- *  improve the total run time.
+ *  improve the total run time. Don't forget to join the threads before the main thread finishes.
  * 
  */
 
