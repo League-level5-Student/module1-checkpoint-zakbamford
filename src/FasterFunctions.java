@@ -7,8 +7,9 @@ public class FasterFunctions {
 		
 		
 		
-		System.out.println("Total Time: " + totalTime + "\n\n");
+		
 		float endTime = (float)((double)System.currentTimeMillis() - (double)startTime) / 1000.0f;
 		totalTime += endTime;
+		System.out.println("Total Time: " + totalTime);
 	}
 }
